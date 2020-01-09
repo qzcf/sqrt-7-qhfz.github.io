@@ -2,19 +2,19 @@
 <html>
 <head>
 
-<meta charset="gbk">
-<title>Ä¤°İCQY£¨ÍøÒ³°æ£©</title>
+<!-- meta charset="gbk" -->
+<title>è†œæ‹œCQYï¼ˆç½‘é¡µç‰ˆï¼‰</title>
 <style>
 h1 {
 	text-align: center;
 	color: white;
-	font-family: "¿¬Ìå";
+	font-family: "æ¥·ä½“";
 	font-size: 40px;
 }
 h2 {
 	text-align: center;
 	color: white;
-	font-family: "¿¬Ìå";
+	font-family: "æ¥·ä½“";
 	font-size: 30px;
 }
 </style>
@@ -22,20 +22,20 @@ h2 {
 var cnt = 0;
 function save() { localStorage.lastname = cnt; }
 function get() { return Number(localStorage.lastname); }
-function update() { document.getElementById("msg").innerHTML = "ÄúÒÑÄ¤°İÁË" + cnt + "´Î"; }
+function update() { document.getElementById("msg").innerHTML = "æ‚¨å·²è†œæ‹œäº†" + cnt + "æ¬¡"; }
 function add() {
 	cnt++;
 	update();
 	switch(cnt){
 		case 5: alert("CQY: I AK IOI!"); break;
-		case 10: alert("CQY: À´Ä¤°İÎÒÑ½£¡"); break;
-		case 50: alert("CQY: ¿´×ÅÄãĞÁ¿àÄ¤°İÎÒµÄÑù×Ó£¬ÎÒÓÖÈ¥AKÁËÒ»´ÎIOI"); break;
-		case 100: alert("CQY: Ä¤ÎÒÄ¤µÃÀÛ²»ÀÛÑ½£¿"); break;
-		case 500: alert("CQY: ÎÒµõ´ò¹ú¼Ò¼¯Ñµ¶Ó"); break;
-		case 1000: alert("CQY: ÄãÏÖÔÚÄ¤°İÎÒµÄ´ÎÊı¸Õ¸ÏÉÏÎÒAK IOIµÄ´ÎÊı:)"); break;
-		case 5000: alert("CQY: ÎÒ×î¾Ş£¡"); break;
-		case 10000: alert("CQY: ËäÈ»ÄãÓÃÊó±êÁ¬µãÆ÷×÷±×£¬µ«ÊÇÎÒAKµÄËÙ¶È»¹ÊÇ±ÈÄãÄ¤µÄ¿ì"); break;
-		case 10001: alert("ºóĞø»¹»á¸üĞÂ£¬»¶Ó­Ä¤°İ:)"); break;
+		case 10: alert("CQY: æ¥è†œæ‹œæˆ‘å‘€ï¼"); break;
+		case 50: alert("CQY: çœ‹ç€ä½ è¾›è‹¦è†œæ‹œæˆ‘çš„æ ·å­ï¼Œæˆ‘åˆå»AKäº†ä¸€æ¬¡IOI"); break;
+		case 100: alert("CQY: è†œæˆ‘è†œå¾—ç´¯ä¸ç´¯å‘€ï¼Ÿ"); break;
+		case 500: alert("CQY: æˆ‘åŠæ‰“å›½å®¶é›†è®­é˜Ÿ"); break;
+		case 1000: alert("CQY: ä½ ç°åœ¨è†œæ‹œæˆ‘çš„æ¬¡æ•°åˆšèµ¶ä¸Šæˆ‘AK IOIçš„æ¬¡æ•°:)"); break;
+		case 5000: alert("CQY: æˆ‘æœ€å·¨ï¼"); break;
+		case 10000: alert("CQY: è™½ç„¶ä½ ç”¨é¼ æ ‡è¿ç‚¹å™¨ä½œå¼Šï¼Œä½†æ˜¯æˆ‘AKçš„é€Ÿåº¦è¿˜æ˜¯æ¯”ä½ è†œçš„å¿«"); break;
+		case 10001: alert("åç»­è¿˜ä¼šæ›´æ–°ï¼Œæ¬¢è¿è†œæ‹œ:)"); break;
 	}
 }
 function clr() {
@@ -49,9 +49,9 @@ function leave() { save(); }
 </head>
 <body style="background-color:black;" onbeforeunload="leave()"> 
 <br><br><br><br><br><br><br><br> 
-<h1><b>CQYĞ¡Ñ§¾ÍAKÁËIOI±ÈÈüN´Î£¬¶øÇÒÃ¿´ÎºÄÊ±Ö»ÓĞ1ÃëÖÓ£¡</b></h1>
+<h1><b>CQYå°å­¦å°±AKäº†IOIæ¯”èµ›Næ¬¡ï¼Œè€Œä¸”æ¯æ¬¡è€—æ—¶åªæœ‰1ç§’é’Ÿï¼</b></h1>
 <br><br><br><br><br>
-<h2 id="msg"><b>µã»÷Ä¤°İCQY</b></h1>
+<h2 id="msg"><b>ç‚¹å‡»è†œæ‹œCQY</b></h1>
 <br><br><br>
 <script>
 	if(localStorage.lastname) {
@@ -60,8 +60,8 @@ function leave() { save(); }
 	}
 </script>
 <h2>
-	<button type="button" onclick="add()" style="font-size: 30px; font-family: '¿¬Ìå';">Ä¤°İ</button>
-	<button type="button" onclick="clr()" style="font-size: 30px; font-family: '¿¬Ìå';">¹éÁã</button>
+	<button type="button" onclick="add()" style="font-size: 30px; font-family: 'æ¥·ä½“';">è†œæ‹œ</button>
+	<button type="button" onclick="clr()" style="font-size: 30px; font-family: 'æ¥·ä½“';">å½’é›¶</button>
 </h2>
 
 </body>
