@@ -1,0 +1,85 @@
+/*common*/
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-color: #e7eef5;
+	font-size: 100%;
+}
+p {
+	clear: both;
+	font-family: "宋体";
+	font-size: 1.25em;
+	line-height: 150%;
+	text-align: justify;
+	text-indent: 2em;
+}
+/*header*/
+div.header {
+	padding: 20px 100px;
+	background-color: #5993c2;
+	color: white;
+	font-family: "楷体",sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+/*guide*/
+div.guide {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+div.guide ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #aadbf1;
+	font-family: "宋体",sans-serif;
+	font-size: 1.125em;
+	list-style-type: none;
+}
+div.guide li {
+	float: left;
+	border-right: 2px solid #5993c2;
+}
+div.guide a {
+	display: block;
+	width: 90px;
+	padding: 10px 0px;
+	border-top: 1px solid #aadbf1;
+	color: darkblue;
+	font-size: 110%;
+	text-align: center;
+	text-decoration: none;
+}
+div.guide a.active {
+	background-color: #5993c2;
+	color: white;
+	font-weight: bold;
+}
+div.guide a:hover:not(.active) {
+	background-color: #89c3f2;
+	font-weight: bold;
+}
+/*content*/
+div.column {
+	float: left;
+}
+div.column.side {
+	width: 20%;
+}
+div.column.middle {
+	width: 60%;
+}
+@media screen and (max-width: 600px) {
+	div.column.side,div.column.middle {
+		width: 100%;
+	}
+}
+div.content {
+	height: 500px;
+	margin: 4px;
+	padding: 5px 20px;
+	border: 2px solid #5993c2;
+}

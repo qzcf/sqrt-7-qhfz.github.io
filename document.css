@@ -1,0 +1,32 @@
+body {
+	background-color: #cce8cf;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	text-align: center;
+	font-family: "楷体";
+	font-size: 27px;
+	line-height: 150%;
+	background-color: #718de0;
+	color: #ffffff;
+}
+h2 {
+	text-indent: 30px;
+	font-family: "宋体";
+}
+h3 {
+	text-indent: 20px;
+	font-size: 20px;
+	font-family: "宋体";
+}
+h4 {
+	text-indent: 30px;
+	font-family: "宋体";
+}
+p {
+	text-indent: 50px;
+	font-size: 20px;
+	font-family: "宋体";
+}

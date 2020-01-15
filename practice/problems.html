@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../document.css" />
+<title>算法练习题列表</title>
+<base href="http://www.luogu.com.cn/" target="_blank" />
+<script>
+function autoJump() {
+	var t = document.getElementById("problemNo").value;
+	window.open("problem/" + t);
+}
+</script>
+
+</head>
+<body>
+
+<h1>小工具</h1>
+<h2>洛谷自动跳题</h2>
+<p>在此处键入题号（输入list则跳转到题目列表）：
+	<input id="problemNo" type="text" />
+	<button type="button" onclick="autoJump()">跳转</button> 
+</p>
+
+<h1>题目列表</h1>
+<h2>一、动态规划</h2>
+<h3>（一）背包问题</h3>
+<p>
+	<b>·0-1背包</b>
+	<a href="problem/P1060">【P1060_开心的金明】</a>
+	<a href="problem/P1164">【P1164_小A点菜】</a>
+	<a href="problem/P1048">【P1048_采药】</a>
+	<a href="problem/P1049">【P1049_装箱问题】</a>
+<p>
+	<b>·完全背包</b>
+	<a href="problem/P5662">【P5662_纪念品】</a>
+</p>
+
+</body>
+</html>
